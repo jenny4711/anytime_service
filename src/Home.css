@@ -40,10 +40,11 @@
 .Home-text2{
   color:white;
   position:absolute;
-  right:40rem;
+  right:45rem;
   font-weight:bolder;
   margin:8rem;
   animation:slide1 4s ease-out;
+  
  
 
 }
@@ -55,7 +56,7 @@
  opacity: -1;
   }
   to{
-    right:40rem;
+    right:45rem;
     opacity: 1;
   }
 }
@@ -70,9 +71,9 @@ img{
   opacity: 80%;
   border-radius: 2rem;
 }
-/* .Home-court{
+.Home-court{
   width:800px;
-} */
+}
 
 
 .Home-imgDiv1{
@@ -81,10 +82,11 @@ img{
 
   width:30rem;
 }
-.Home-imgDiv2{
+.Home-imgDiv2,.Home-img4{
   display: flex;
-  height:15rem;
+  height:25rem;
 }
+
 
 
 
@@ -101,7 +103,7 @@ img{
   display:flex;
   color:white;
   position:absolute;
-  
+  margin-bottom: 2rem;
   left:10rem;
 
   font-weight:bolder;
@@ -127,7 +129,6 @@ img{
   display:flex;
   color:white;
   position:absolute;
-
 
   right:-10rem;
  

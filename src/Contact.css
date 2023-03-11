@@ -1,4 +1,6 @@
 .Contact{
+  display:flex;
+  justify-content: center;
   background-color: black;
   color:white;
   height:90rem;
@@ -17,12 +19,31 @@ opacity: 1;
 }
 
 .Contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width:50rem;
   padding:4rem;
   margin-top:3rem;
   line-height:3rem;
   font-size:1.5rem;
   border: 2px  solid white ;
+  border-radius: 3%;
   height:20rem;
 
 }
+
+@media screen and (max-width:768px){
+  
+  .Contact-info{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width:29rem;
+   
+  }
+ 
+
+
+} 
