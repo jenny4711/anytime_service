@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div  className='Home'>
     <div className='Home-imgDiv1'>
-      <img src='./img/Court.jpg' alt='Court'/>
+      <img  className='Home-court' src='./img/Court.jpeg' alt='Court'/>
     </div>
     <div className='Home-imgDiv2'>
       <h1  className='Home-text1'>뉴져지 통역 대행 서비스</h1>

@@ -1,18 +1,27 @@
 .Home{
+  display:flex;
+  
+  flex-direction: column;
   height:60rem;
   background-color: black;
+  
 }
 
+
 .Home-text1{
+ 
+  display:flex;
   color:white;
   position:absolute;
-  left:60rem;
+  left:45rem;
   font-weight:bolder;
   margin:8rem;
   animation:slide 3s ease-out;
+  width:30rem;
  
 
 }
+
 
 
 @keyframes slide{
@@ -31,7 +40,7 @@
 .Home-text2{
   color:white;
   position:absolute;
-  right:70rem;
+  right:40rem;
   font-weight:bolder;
   margin:8rem;
   animation:slide1 4s ease-out;
@@ -46,7 +55,7 @@
  opacity: -1;
   }
   to{
-    right:70rem;
+    right:40rem;
     opacity: 1;
   }
 }
@@ -61,10 +70,94 @@ img{
   opacity: 80%;
   border-radius: 2rem;
 }
+/* .Home-court{
+  width:800px;
+} */
+
+
 .Home-imgDiv1{
+  display: flex;
   margin-top:3rem;
 
+  width:30rem;
 }
 .Home-imgDiv2{
+  display: flex;
   height:15rem;
+}
+
+
+
+@media screen and (max-width:768px){
+img{
+  width:768px;
+}
+.Home-img4,.Home-Div1,.Home-imgDiv2{
+  height:50rem;
+}
+
+.Home-text1{
+ 
+  display:flex;
+  color:white;
+  position:absolute;
+  
+  left:10rem;
+
+  font-weight:bolder;
+  margin:8rem;
+  animation:slide 3s ease-out;
+  width:30rem;
+ 
+
+}
+
+@keyframes slide{
+  from{
+ left:-10px;
+ opacity: -1;
+  }
+  to{
+    left:10rem;
+    opacity: 1;
+  }
+}
+
+.Home-text2{
+  display:flex;
+  color:white;
+  position:absolute;
+
+
+  right:-10rem;
+ 
+  font-weight:bolder;
+  margin:3rem;
+  width:20rem;
+ 
+
+}
+
+
+ @keyframes slide1{
+  from{
+ right:-20rem;
+ opacity: -1;
+  }
+  to{
+    right:-10rem;
+    opacity: 1;
+  } 
+ } 
+
+
+
+
+
+
+
+
+
+
+
 }
