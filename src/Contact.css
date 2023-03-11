@@ -4,6 +4,16 @@
   height:90rem;
   text-align: center;
   margin-top: 3rem;
+  animation:makeOpacity 2s ease-out;
+}
+
+@keyframes makeOpacity{
+  from{
+opacity:0;
+  }
+  to{
+opacity: 1;
+  }
 }
 
 .Contact-info{

@@ -6,6 +6,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height:90rem;
  width:50rem;
+ animation:makeOpacity 2s ease-out;
 
 }
 p{
@@ -17,4 +18,13 @@ p{
   font-size:1.5rem;
   border: 2px  solid white ;
   height:55rem;
+}
+
+@keyframes makeOpacity{
+  from{
+opacity:0;
+  }
+  to{
+opacity: 1;
+  }
 }

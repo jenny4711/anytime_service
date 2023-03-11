@@ -6,27 +6,19 @@
 .Home-text1{
   color:white;
   position:absolute;
-  left:45rem;
+  left:60rem;
   font-weight:bolder;
   margin:8rem;
-  animation:slide 2s ease-out;
+  animation:slide 3s ease-out;
  
 
 }
-.Home-text400{
-  color:white;
-  position:absolute;
-  left:45rem;
-  font-weight:bolder;
-  margin:5rem;
-  animation:disapear 2s ease-out;
 
-}
 
 @keyframes slide{
   from{
  left:-100px;
- opacity: 0;
+ opacity: -1;
   }
   to{
     left:45rem;
@@ -34,16 +26,34 @@
   }
 }
 
-@keyframes disapear{
+
+
+.Home-text2{
+  color:white;
+  position:absolute;
+  right:70rem;
+  font-weight:bolder;
+  margin:8rem;
+  animation:slide1 4s ease-out;
+ 
+
+}
+
+
+@keyframes slide1{
   from{
-    left:45rem;
-    opacity: 1;
+ right:-100rem;
+ opacity: -1;
   }
   to{
-    left:-100px;
-    opacity: 0;
+    right:70rem;
+    opacity: 1;
   }
 }
+
+
+
+
 
 img{
   width:50rem;
