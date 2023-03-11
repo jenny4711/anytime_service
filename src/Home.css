@@ -1,0 +1,60 @@
+.Home{
+  height:60rem;
+  background-color: black;
+}
+
+.Home-text1{
+  color:white;
+  position:absolute;
+  left:45rem;
+  font-weight:bolder;
+  margin:8rem;
+  animation:slide 2s ease-out;
+ 
+
+}
+.Home-text400{
+  color:white;
+  position:absolute;
+  left:45rem;
+  font-weight:bolder;
+  margin:5rem;
+  animation:disapear 2s ease-out;
+
+}
+
+@keyframes slide{
+  from{
+ left:-100px;
+ opacity: 0;
+  }
+  to{
+    left:45rem;
+    opacity: 1;
+  }
+}
+
+@keyframes disapear{
+  from{
+    left:45rem;
+    opacity: 1;
+  }
+  to{
+    left:-100px;
+    opacity: 0;
+  }
+}
+
+img{
+  width:50rem;
+  height:15rem;
+  opacity: 80%;
+  border-radius: 2rem;
+}
+.Home-imgDiv1{
+  margin-top:3rem;
+
+}
+.Home-imgDiv2{
+  height:15rem;
+}

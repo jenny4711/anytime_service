@@ -1,0 +1,18 @@
+.Contact{
+  background-color: black;
+  color:white;
+  height:90rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.Contact-info{
+  width:50rem;
+  padding:4rem;
+  margin-top:3rem;
+  line-height:3rem;
+  font-size:1.5rem;
+  border: 2px  solid white ;
+  height:20rem;
+
+}
