@@ -1,3 +1,6 @@
+:root {
+  --vh: 100%;
+}
 .App{
   display:flex;
   justify-content: center;
@@ -15,7 +18,7 @@
 
 
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
   .App{
     margin-top:-35rem;
     width:30rem;
@@ -24,14 +27,14 @@
    
     
   }
-}
+} */
 
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
   .title{
 width: 90rem;
   }
-}
+} */
 
 .title {
   text-align: center;

@@ -21,30 +21,14 @@ p{
   height:55rem;
 }
 
-@keyframes makeOpacity{
+/* @keyframes makeOpacity{
   from{
 opacity:0;
   }
   to{
 opacity: 1;
   }
-}
+} */
 
-@media screen and (max-width:768px){
-  .About{ 
-    margin-bottom:-10rem;
-   
-  
-     /* width:20rem;  */
-   
-  }
-  p{
-    font-size:medium;
-    width:20rem;
-    line-height:1.7rem;
-  }
- 
- 
 
-}
 

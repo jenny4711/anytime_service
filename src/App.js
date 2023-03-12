@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React,{useState,useEffect} from 'react'
 import './App.css';
 import {Routes,Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,16 @@ import Contact from './pages/Contact';
 import FeedBack from './pages/FeedBack';
 import Home from './pages/Home';
 
+
+
 function App() {
+  function setScreenSize() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  }
+  useEffect(() => {
+    setScreenSize();
+  });
   return (
     <div className='App'>
     <h1 className='title'>Anytime Solution</h1>
