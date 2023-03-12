@@ -17,7 +17,7 @@
   display:flex;
   color:white;
   position:absolute;
-  left:45rem;
+  left:55rem;
   font-weight:bolder;
   margin:8rem;
   animation:slide 3s ease-out;
@@ -28,23 +28,23 @@
 
 
 
-/* @keyframes slide{
+@keyframes slide{
   from{
  left:-100px;
  opacity: -1;
   }
   to{
-    left:45rem;
+    left:55rem;
     opacity: 1;
   }
-} */
+}
 
 
 
 .Home-text2{
   color:white;
   position:absolute;
-  right:45rem;
+  right:70rem;
   font-weight:bolder;
   margin:8rem;
   animation:slide1 4s ease-out;
@@ -60,7 +60,7 @@
  opacity: -1;
   }
   to{
-    right:45rem;
+    right:70rem;
     opacity: 1;
   }
 }
@@ -94,7 +94,7 @@ img{
 
 
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
 img{
   width:768px;
 }
@@ -153,7 +153,7 @@ img{
     right:-10rem;
     opacity: 1;
   } 
- } 
+ }  */
 
 
 
@@ -165,4 +165,4 @@ img{
 
 
 
-}
+/* } */
