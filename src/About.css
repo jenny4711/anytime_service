@@ -5,6 +5,7 @@
   color:white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height:90rem;
+  height: calc(var(--vh, 1vh) * 100);
  width:50rem;
  animation:makeOpacity 2s ease-out;
 

@@ -7,6 +7,7 @@
   color:white;
   background-color: black;
   height:90rem;
+  height: calc(var(--vh, 1vh) * 100);
   width:50rem;
   
 }

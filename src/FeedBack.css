@@ -3,6 +3,7 @@
   background-color: black;
   justify-content: center;
   height:90rem;
+  height: calc(var(--vh, 1vh) * 100);
   width:50rem;
   color:white;
   /* height:45rem; */

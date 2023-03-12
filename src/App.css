@@ -10,6 +10,8 @@
   align-items:center;
   width:160rem;
   height:110rem;
+  /* height: calc(var(--vh, 1vh) * 100); */
+ 
   color:white;
   
   
