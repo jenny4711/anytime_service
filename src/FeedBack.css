@@ -1,0 +1,30 @@
+.FeedBack{
+display:flex;
+  background-color: black;
+  justify-content: center;
+
+  color:white;
+  height:45rem;
+  
+  margin:3rem;
+}
+
+.mb-3{
+  width:50rem;
+}
+
+@media screen and (max-width:768px){
+ .FeedBack{
+  width:768px;
+
+ 
+  margin-right:0px;
+}
+  .mb-3{
+  width:30rem;
+}
+}
+
+.FeedBack-text{
+  height:15rem;
+}

@@ -11,8 +11,16 @@
   display:flex;
   flex-direction: column;
   width:50rem;
- 
-  
+
+}
+
+@media screen and (max-width:768px){
+  .Service-Accordion{
+    width:30rem;
+    height:230rem;
+    color:white;
+    
+  }
 }
 
 .Service{

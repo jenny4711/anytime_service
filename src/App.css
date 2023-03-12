@@ -5,15 +5,21 @@
   align-items:center;
   background-color: black;
   align-items:center;
-  width:120rem;
+  width:160rem;
+  height:100rem;
   color:white;
+  margin-top: -10rem;
+  
   
 }
 
 
+
 @media screen and (max-width:768px){
   .App{
-    width:768px;
+    margin-top:-65rem;
+    width:900px;
+    height:230rem;
     color:white;
     
   }
@@ -30,6 +36,7 @@ width: 90rem;
   text-align: center;
   color:white;
   padding:2rem;
+
  
 }
 
