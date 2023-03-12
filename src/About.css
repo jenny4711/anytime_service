@@ -1,11 +1,10 @@
 .About{
   display:flex;
   justify-content: center;
-  /* margin-top:-3rem; */
+  margin-top:-3rem;
   color:white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height:90rem;
-  height: calc(var(--vh, 1vh) * 100);
  width:50rem;
  animation:makeOpacity 2s ease-out;
 
@@ -22,14 +21,30 @@ p{
   height:55rem;
 }
 
- @keyframes makeOpacity{
+@keyframes makeOpacity{
   from{
 opacity:0;
   }
   to{
 opacity: 1;
   }
-} 
+}
 
+@media screen and (max-width:768px){
+  .About{ 
+    margin-bottom:-10rem;
+   
+  
+     /* width:20rem;  */
+   
+  }
+  p{
+    font-size:medium;
+    width:20rem;
+    line-height:1.7rem;
+  }
+ 
+ 
 
+}
 
