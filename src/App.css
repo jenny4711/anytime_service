@@ -20,7 +20,7 @@
 
 
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width:768px){
   .App{
     margin-top:-35rem;
     width:30rem;
@@ -29,14 +29,14 @@
    
     
   }
-} */
+} 
 
 
-/* @media screen and (max-width:768px){
+ @media screen and (max-width:768px){
   .title{
 width: 90rem;
   }
-} */
+} 
 
 .title {
   text-align: center;
@@ -48,7 +48,7 @@ width: 90rem;
 
 
 
-/* @media (prefers-reduced-motion: no-preference) {
+ @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -63,4 +63,4 @@ width: 90rem;
   to {
     transform: rotate(360deg);
   }
-} */
+} 

@@ -25,7 +25,7 @@
 
 }
 
-/* @media screen and (max-width:768px){
+ @media screen and (max-width:768px){
   .Service{
     margin-bottom:-10rem;
   
@@ -42,7 +42,7 @@
   .Service-p {
     width:20rem;
   }
-} */
+} 
 
 
 .Service-ah{
@@ -74,6 +74,6 @@
   margin-bottom: 2rem;
 
 }
-/* .accordion-button::after{
+ .accordion-button::after{
   color:black;
-} */
+} 

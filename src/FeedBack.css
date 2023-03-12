@@ -14,19 +14,17 @@
   width:50rem;
 }
 
-/* @media screen and (max-width:768px){
+ @media screen and (max-width:768px){
  .FeedBack{
   margin-bottom:-10rem;
   width:20rem;
 
 }
-.Feedback-form{
 
-}
   .mb-3{
   width:20rem;
 }
-} */
+} 
 
 .FeedBack-text{
   height:15rem;
