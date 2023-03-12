@@ -1,7 +1,7 @@
 .About{
   display:flex;
   justify-content: center;
-  margin-top:-3rem;
+  /* margin-top:-3rem; */
   color:white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height:90rem;

@@ -25,7 +25,7 @@ const url1='https://jsonplaceholder.typicode.com/posts'
     e.preventDefault()
     console.log(formData)
     console.log('test')
-    axios.post(url1,formData)
+    axios.post(url,formData)
     .then(response =>{
       console.log(response)
       
