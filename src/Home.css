@@ -1,9 +1,13 @@
 .Home{
   display:flex;
-  
+  justify-content: center;
   flex-direction: column;
+  margin-top:-3rem;
   height:60rem;
+  color:white;
   background-color: black;
+  height:90rem;
+  width:50rem;
   
 }
 

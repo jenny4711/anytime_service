@@ -47,7 +47,7 @@ const url1='https://jsonplaceholder.typicode.com/posts'
   
   return (
     <div className='FeedBack'>
-    <Form onSubmit={subMitHandler}>
+    <Form className='Feedback-form' onSubmit={subMitHandler}>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>username</Form.Label>
         <Form.Control name="username" value={formData.username} onChange={handleChange} type="text" placeholder="Username" />

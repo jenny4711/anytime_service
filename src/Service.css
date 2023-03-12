@@ -1,3 +1,13 @@
+.Service{
+  display:flex;
+  justify-content: center;
+  height:90rem;
+  width:50rem;
+  margin-top:2rem;
+  
+
+}
+
 .Service-p{
   background-color: black;
   color:white;
@@ -15,22 +25,25 @@
 }
 
 @media screen and (max-width:768px){
+  .Service{
+    margin-bottom:-10rem;
+  
+  }
+
+
   .Service-Accordion{
-    width:30rem;
+    width:20rem;
     height:230rem;
     color:white;
     
   }
+
+  .Service-p {
+    width:20rem;
+  }
 }
 
-.Service{
-  display:flex;
-  justify-content: center;
-  height:90rem;
-  margin-top:2rem;
-  
 
-}
 .Service-ah{
   background-color: black;
 }

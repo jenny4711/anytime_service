@@ -8,7 +8,7 @@
   width:160rem;
   height:100rem;
   color:white;
-  margin-top: -10rem;
+  /* margin-top: -5rem; */
   
   
 }
@@ -17,10 +17,11 @@
 
 @media screen and (max-width:768px){
   .App{
-    margin-top:-65rem;
-    width:900px;
-    height:230rem;
+    margin-top:-35rem;
+    width:30rem;
+    height:180rem;
     color:white;
+   
     
   }
 }

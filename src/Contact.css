@@ -4,8 +4,9 @@
   background-color: black;
   color:white;
   height:90rem;
+  width:50rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: -3rem;
   animation:makeOpacity 2s ease-out;
 }
 
@@ -34,14 +35,25 @@ opacity: 1;
 }
 
 @media screen and (max-width:768px){
+
+  .Contact{
+    width:20rem;
+    margin-bottom:-10rem;
+  }
   
   .Contact-info{
-    display: flex;
+    /* display: flex;
     justify-content: center;
   flex-direction: column;
   justify-content: center;
-  width:29rem;
+  width:29rem; */
+  width:20rem;
+  font-size: small;
+  padding:1rem;
    
+  }
+  h3{
+    font-size:medium;
   }
  
 
