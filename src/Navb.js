@@ -10,6 +10,7 @@ const menuList=['About',"Service","Contact","Feedback"]
 const Navb = () => {
   return (
     <div className='menu-area'>
+        
       <ul className='menu-list'>
       <Link className='nav-home' to="/"><li>HOME</li></Link>
       <Link className='nav-link' to="/about"><li>회사정보</li></Link>

@@ -21,10 +21,12 @@ function App() {
   // });
   return (
     <div className='App'>
-    <h1 className='title'>Anytime Solution</h1>
+   <h1 className='title'>Anytime Solution</h1>
     <div className="Routes">
+ 
       
       <Navb/>
+      
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>

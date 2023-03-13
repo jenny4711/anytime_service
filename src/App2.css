@@ -20,15 +20,15 @@
 
  @media screen and (max-width:768px){
   .title{
-    margin-top:4rem;
+    margin-top:40rem;
   }
   .App{
     /* width:40rem; */
-    
+   
    flex-direction: column;
  
     background-color:black;
-    color: white;
+  
    
      
     
