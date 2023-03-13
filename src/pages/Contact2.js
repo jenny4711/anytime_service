@@ -13,6 +13,7 @@ const Contact = () => {
       <h3 className='Contact-email'>이메일:anysol.info@gmail.com</h3>
       
       </div>
+   
       
     </div>
   )
