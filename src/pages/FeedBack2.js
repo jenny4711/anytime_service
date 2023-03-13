@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Form from 'react-bootstrap/Form';
 import axios from 'axios';
 import "../FeedBack.css"
+import Button from 'react-bootstrap/Button';
 
 const FeedBack = () => {
   const NewItemForm={
@@ -56,7 +57,7 @@ const url1='https://jsonplaceholder.typicode.com/posts'
         <Form.Label>Feedback</Form.Label>
         <Form.Control name="feedback" value={formData.feedback} onChange={handleChange} className='FeedBack-text' as="textarea" rows={3} />
       </Form.Group>
-      <button>Submit</button>
+      <Button variant="light">Submit</Button>
   
     </Form>
     </div>

@@ -3,10 +3,10 @@ import './App2.css';
 import {Routes,Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navb from './Navb';
-import About from './pages/About';
-import Service from './pages/Service';
-import Contact from './pages/Contact';
-import FeedBack from './pages/FeedBack';
+import About from './pages/About2';
+import Service from './pages/Service2';
+import Contact from './pages/Contact2';
+import FeedBack from './pages/FeedBack2';
 import Home from './pages/Home2';
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
-import "../Service.css"
+import "../Service2.css"
 const Service = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Service = () => {
       </Accordion.Item>
 
       <Accordion.Item eventKey="1" >
-        <Accordion.Header className='Service-AH'>사건 검토 및 해결 통역</Accordion.Header>
+        <Accordion.Header className='Service-ah'>사건 검토 및 해결 통역</Accordion.Header>
         <Accordion.Body className='Service-p'>
         기본 $100부터 시작~
         요청하신 건 의 따라 가격이 변동 될수 있습니다.
