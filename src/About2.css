@@ -28,21 +28,26 @@ opacity: 1;
   }
 }
 
-/* @media screen and (max-width:768px){
-  .About{ 
-    margin-bottom:-10rem;
+ @media screen and (max-width:768px){
+  .About{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:40rem;
    
-  
-     /* width:20rem;  */
-   
-  /* } */
-  p{
-    font-size:medium;
-    /* width:20rem; */
-    line-height:1.7rem;
-  }
- 
- 
+     background-color:black;
+     color: white;
+    
+      margin-top:2rem;
+     
+   }
 
-/* } */
+   .About-p{
+    
+    width:25rem;
+    font-size: small;
+   }
+
+} 
 

@@ -19,3 +19,18 @@
   align-items: center;
 
 }
+
+@media screen and (max-width:768px){
+  .Home{
+    width:35rem;
+  
+    background-color:black;
+    color: white;
+   
+     margin-top:2rem;
+    
+  } 
+
+
+}
+ 
