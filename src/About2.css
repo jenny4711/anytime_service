@@ -28,7 +28,7 @@ opacity: 1;
   }
 }
 
- @media screen and (max-width:768px){
+ /* @media screen and (max-width:768px){
   .About{
     display:flex;
     text-align: center;
@@ -50,4 +50,4 @@ opacity: 1;
    }
 
 } 
-
+ */
