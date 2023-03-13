@@ -9,7 +9,7 @@
  animation:makeOpacity 2s ease-out;
 
 }
-p{
+.About-p{
   display:flex;
   width:50rem;
   padding:4rem;

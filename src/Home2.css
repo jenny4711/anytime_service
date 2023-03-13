@@ -1,0 +1,17 @@
+.Home{
+  width:50rem;
+}
+
+.d-block{
+  width:15rem;
+  height:15rem
+}
+
+.Home-text{
+  
+  height:15rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}

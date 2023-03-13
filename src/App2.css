@@ -1,0 +1,19 @@
+ /* :root {
+  --vh: 100%;
+} */
+.App{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  background-color: black;
+  align-items:center;
+
+   height: calc(var(--vh, 1vh) * 100); 
+  
+  color:white;
+  
+  
+  
+ }
+ 
