@@ -31,8 +31,8 @@ opacity: 1;
 }
 
  @media screen and (max-width:768px){
-  .Home{
-    width:35rem;
+  .About{
+    /* width:35rem; */
   
     background-color:black;
     color: white;
@@ -43,7 +43,7 @@ opacity: 1;
 
    .About-p{
     
-    width:25rem;
+    width:23rem;
     font-size: small;
    }
 
