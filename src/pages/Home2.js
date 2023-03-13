@@ -89,6 +89,7 @@ const Home = () => {
         src="./img/hospital.jpg"
         alt="Third slide"
       />
+      
       <Carousel.Caption>
         {/* <h3>Third slide label</h3>
         <p>
@@ -97,6 +98,13 @@ const Home = () => {
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
+  <div >
+ 
+        <br/>
+        <br/>
+        
+      
+</div>
 
       
 

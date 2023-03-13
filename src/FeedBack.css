@@ -13,7 +13,7 @@
 
  @media screen and (max-width:768px){
  .FeedBack{
-  margin-bottom:-10rem;
+  /* margin-bottom:-10rem; */
   width:20rem;
 
 }
