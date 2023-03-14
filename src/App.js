@@ -10,19 +10,19 @@ import Contact from './pages/Contact2';
 import FeedBack from './pages/FeedBack2';
 import Home from './pages/Home2';
 
-export const Mobile=({children})=>{
-  const isMobile = useMediaQuery({
-    query:"(max-width:768px)"
-  });
-  return <>{isMobile && children}</>
-}
+// export const Mobile=({children})=>{
+//   const isMobile = useMediaQuery({
+//     query:"(max-width:768px)"
+//   });
+//   return <>{isMobile && children}</>
+// }
 
-export const Pc =({children})=>{
-  const isPc=useMediaQuery({
-    query:"(min-width:768px)"
-  });
-  return <>{isPc && children}</>
-}
+// export const Pc =({children})=>{
+//   const isPc=useMediaQuery({
+//     query:"(min-width:768px)"
+//   });
+//   return <>{isPc && children}</>
+// }
 
 
 function App() {
@@ -30,12 +30,11 @@ function App() {
   return (
     
     <div className='App'>
-      <Mobile>Mobile</Mobile>
-      <Pc>pc</Pc>
+    
    <h1 className='title'>Anytime Solution</h1>
     <div className="Routes">
  
-      
+  
       <Navb/>
       
       <Routes>
@@ -47,6 +46,9 @@ function App() {
         
 
       </Routes>
+    
+
+     
     </div>
     </div>
   );

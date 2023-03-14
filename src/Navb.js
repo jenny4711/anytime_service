@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link, useNavigate } from "react-router-dom"
+// import MediaQuery from 'react-responsive';
 import './Navb.css';
 
 
@@ -7,8 +8,11 @@ const menuList=['About',"Service","Contact","Feedback"]
 
 
 
+
 const Navb = () => {
+
   return (
+   
     <div className='menu-area'>
         
       <ul className='menu-list'>
@@ -19,6 +23,7 @@ const Navb = () => {
       <Link className='nav-link' to="/feedback"><li>후기</li></Link>
       </ul>
     </div>
+ 
   )
 }
 

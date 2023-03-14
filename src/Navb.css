@@ -31,29 +31,29 @@
 }
 
 
-
-
-/*
  @media screen and (max-width:768px){
-  .menu-area{
-    margin-top:-1rem;
-  }
-  .menu-list{
-    
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color:white;
-    color: black;
-    width:25rem;
-    /* font-size:small; */
-     /* margin-bottom:-4rem; */
-    
-  /* }  */
-  /* .nav-home,.nav-link{ */
+.menu-area{
+  display:flex;
+  /* flex-direction: column;
+   align-items:center;  */
+   text-align: center;
+ justify-content: center; 
+
+
+
+ 
+}
+.menu-list{
+ width:15rem;
+ display:flex;
+flex-direction: column;
+align-items: flex-start;
   
-    /* font-size:smal; */
-  /* } */
+  justify-content: center;
+  color:black;
+ 
 
+ 
+}
 
-/* } */
+ }  
