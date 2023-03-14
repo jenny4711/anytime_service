@@ -67,7 +67,7 @@ const Home = () => {
     <Carousel.Item interval={1000}>
       <img
         className="d-block w-100"
-        src='./img/Court.jpeg'
+        src='./img/bank.jpeg'
         alt="First slide"
       />
       <Carousel.Caption>
@@ -78,7 +78,7 @@ const Home = () => {
     <Carousel.Item interval={null}>
       <img
         className="d-block w-100"
-        src='./img/7-2.-DACA-1024x475.jpg'
+        src='./img/flag.webp'
         alt="Second slide"
       />
       
@@ -86,7 +86,7 @@ const Home = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="./img/hospital.jpg"
+        src="./img/njfc_logo.jpg"
         alt="Third slide"
       />
       
