@@ -30,12 +30,19 @@ opacity: 1;
   font-size:1.5rem;
   border: 2px  solid white ;
   border-radius: 3%;
+  list-style: none;
 
 }
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width:768px){
 
+ .Contact-info{
+  width:20rem;
+ }
  
+ .Contact-li{
+font-size: medium;
+ }
 
  }  
- */
+
