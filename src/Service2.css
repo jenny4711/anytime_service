@@ -30,17 +30,18 @@
  
 
 }
-/* 
+
  @media screen and (max-width:768px){
   .Service{
-    margin-bottom:-10rem;
+    margin-bottom:2rem;
+    /* margin-bottom: 35rem; */
   
   }
 
 
   .Service-Accordion{
     width:20rem;
-    height:230rem;
+   
     color:white;
     
   }
@@ -50,7 +51,7 @@
   }
 } 
 
-*/
+
 .Service-ah{
   background-color: black;
   
