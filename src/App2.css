@@ -1,9 +1,10 @@
 :root {
   --vh: 100%;
 }
+
 .App{
   display:flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   align-items:center;
   background-color: black;
