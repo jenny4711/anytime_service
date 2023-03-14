@@ -21,7 +21,7 @@ const Home = () => {
 //   }
 //  },[])
   return (
-    <div>
+  <div className='Home-body'>
     <Carousel className='Home'>
     <Carousel.Item interval={1000}>
       <img
@@ -105,10 +105,11 @@ const Home = () => {
         
       
 </div>
+</div>
 
       
 
-  </div>
+
 
 
 

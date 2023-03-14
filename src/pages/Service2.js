@@ -43,7 +43,7 @@ const Service = () => {
       <Accordion.Item bg="dark" eventKey="4">
         <Accordion.Header bg="dark">기타 재정 지원 신청 지원</Accordion.Header>
         <Accordion.Body className='Service-p'>
-        기본 $100 부터 시작~
+        기본 $150 부터 시작~
         요청하신 건 의 따라 가격이 변동 될수 있습니다.
         </Accordion.Body>
       </Accordion.Item>

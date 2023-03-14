@@ -42,28 +42,36 @@ opacity: 1;
 }
 
  @media screen and (max-width:768px){
-  .About{
-    /* width:35rem; */
-  
-    /* background-color:black;
-    color: white; */
-   
-     margin-top:2rem;
-    
-  } 
-  .About-info{
-   
-    width:20rem;
-    font-size: small;
-    padding:1rem;
-     
-    }
+.About,.About-info{
 
-   /* .About-p{
-    
-   
-    font-size: small;
-   } */
+  margin-top:1rem;
+  font-size: medium;
+  /* justify-content: center;
+  width:80%;
+  margin-top:1rem; */
+}
+.About-info{
+  width:20rem;
+  font-size: small;
+  padding:1rem;
+
+}
+.About-p{
+  margin-top:1rem;
+
+}
+
+
+
+
+
+/* .About-p{
+  height:90%;
+  font-size:small;
+}
+  */
+
+ 
 
 } 
 

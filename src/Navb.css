@@ -29,7 +29,15 @@
   list-style:none;
 
 }
+
+
+
+
+/*
  @media screen and (max-width:768px){
+  .menu-area{
+    margin-top:-1rem;
+  }
   .menu-list{
     
     flex-direction: column;
@@ -37,10 +45,15 @@
     text-align: center;
     background-color:white;
     color: black;
-    width:35rem;
-     margin-top:2rem;
+    width:25rem;
+    /* font-size:small; */
+     /* margin-bottom:-4rem; */
     
-  } 
+  /* }  */
+  /* .nav-home,.nav-link{ */
+  
+    /* font-size:smal; */
+  /* } */
 
 
-}
+/* } */

@@ -31,27 +31,35 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+/*
  @media screen and (max-width:768px){
   .Service{
     margin-bottom:2rem;
     /* margin-bottom: 35rem; */
   
-  }
+  /* } */
 
 
-  .Service-Accordion{
+  /* .Service-Accordion{ */
     width:20rem;
    
     color:white;
     
-  }
+  /* } */
 
-  .Service-p {
+  /* .Service-p { */
     width:20rem;
-  }
-} 
-
-
+  /* } */
+/* }  */
 .Service-ah{
   background-color: black;
   

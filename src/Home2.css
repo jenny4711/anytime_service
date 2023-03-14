@@ -21,18 +21,24 @@
 
 }
 
+/*  
 @media screen and (max-width:768px){
-  .Home{
-    /* width:35rem; */
-    
-  
+  .Home,.Home-text,.Home-body{
+    width:25rem;
+    font-size: medium;
+ 
     background-color:black;
     color: white;
    
-     /* margin-top:20rem; */
+     margin-top:1rem;
     
   } 
+  .d-block{
+    margin-top:1rem;
 
+  }
+ 
 
 }
  
+*/
