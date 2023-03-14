@@ -58,7 +58,7 @@ const Home = () => {
   </Carousel>
 <div className='Home-text'>
  
-        <h3 className='Home-h3'>뉴져지 통역 대행 서비스</h3>
+        <h1 className='Home-h3'><strong>뉴져지 통역 대행 서비스</strong></h1>
         
       
 </div>
