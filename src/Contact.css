@@ -1,48 +1,43 @@
-.Contact{
-  display:flex;
+.Contact {
+  display: flex;
   justify-content: center;
-  margin-bottom:20rem ;
+  margin-bottom: 20rem;
 
-  color:white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
- animation:makeOpacity 2s ease-out;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  animation: makeOpacity 2s ease-out;
 }
 
-@keyframes makeOpacity{
-  from{
-opacity:0;
+@keyframes makeOpacity {
+  from {
+    opacity: 0;
   }
-  to{
-opacity: 1;
+  to {
+    opacity: 1;
   }
 }
 
-
-.Contact-info{
+.Contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width:50rem;
-  padding:3rem;
-  margin-top:3rem;
-  line-height:3rem;
-  font-size:1.5rem;
-  border: 2px  solid white ;
+  width: 50rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  border: 2px solid white;
   border-radius: 3%;
   list-style: none;
-
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
+  .Contact-info {
+    width: 21rem;
+  }
 
- .Contact-info{
-  width:21rem;
- }
- 
- .Contact-li{
-font-size: medium;
- }
-
- }  
-
+  .Contact-li {
+    font-size: medium;
+  }
+}

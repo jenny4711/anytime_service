@@ -1,79 +1,48 @@
-/* :root {
-  --vh: 100%;
-} */
-
-.Service{
-  display:flex;
+.Service {
+  display: flex;
   justify-content: center;
-  margin-bottom:10rem ;
-  /* width:150px; */
-
-  /* height: calc(var(--vh, 1vh) * 100); */
-
-
-  
-
+  margin-bottom: 10rem;
 }
 
-.Service-p{
+.Service-p {
   background-color: black;
-  color:white;
-
-
+  color: white;
 }
-.Service-Accordion{
+.Service-Accordion {
   background-color: black;
-  padding:2rem;
+  padding: 2rem;
 
-  display:flex;
+  display: flex;
   flex-direction: column;
- 
-
 }
 
 
-
-
-
-
-
-
-
-
-/*
- @media screen and (max-width:768px){
-  
-/* }  */
-.Service-ah{
+.Service-ah {
   background-color: black;
-  
 }
-.accordion-button{
+.accordion-button {
   background-color: black;
-  color:white;
- 
+  color: white;
+}
 
-} 
-
- .accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) {
   color: black;
- background-color: white;
+  background-color: white;
 
-  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-
-} 
-
-.Service-disc{
-  color:white;
-  margin-top:4rem;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
 }
-.Service-h2{
-  color:white;
-  /* width:50rem; */
+
+.Service-disc {
+  color: white;
+  margin-top: 4rem;
+}
+.Service-h2 {
+  color: white;
+ 
   text-align: center;
   margin-bottom: 2rem;
-
 }
- .accordion-button::after{
-  color:black;
-}  
+.accordion-button::after {
+  color: black;
+}
