@@ -15,8 +15,12 @@
   
   color:white;
   
-  
-  
+
+ }
+ .title{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin-bottom:1.5rem;
  }
 
  @media screen and (max-width:768px){
