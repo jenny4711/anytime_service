@@ -23,8 +23,8 @@
  .title{
   font-family: 'Lobster', cursive;
   font-size: 3rem;
-  margin-top:2rem;
-  margin-bottom:2.5rem;
+  margin-top:4rem;
+  margin-bottom:3.5rem;
  }
 
  @media screen and (max-width:768px){
