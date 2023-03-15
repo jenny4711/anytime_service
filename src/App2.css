@@ -1,14 +1,17 @@
 /* :root {
   --vh: 100%;
 } */
-
+.body{
+  background-color: black;
+}
 .App{
   display:flex;
  
   flex-direction: column;
   align-items:center;
   background-color: black;
-  height:60.5rem;
+
+  height:85.5rem;
   align-items:center;
  
    /* height: calc(var(--vh, 1vh) * 100);  */
@@ -20,7 +23,8 @@
  .title{
   font-family: 'Lobster', cursive;
   font-size: 3rem;
-  margin-bottom:1.5rem;
+  margin-top:2rem;
+  margin-bottom:2.5rem;
  }
 
  @media screen and (max-width:768px){
