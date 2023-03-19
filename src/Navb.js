@@ -22,6 +22,10 @@ const Navb = () => {
         <Link className="nav-link" to="/feedback">
           <li>후기</li>
         </Link>
+        <Link className="nav-link" to="/admin">
+          <li>Admin</li>
+        </Link>
+
       </ul>
     </div>
   );

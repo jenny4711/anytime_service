@@ -1,6 +1,7 @@
 .FeedBack{
   display:flex;
   justify-content: center;
+  flex-direction: column;
   margin-bottom:10rem ;
   color:white;
   /* height:45rem; */
@@ -21,4 +22,18 @@
 
 .FeedBack-text{
   height:15rem;
+}
+.FeedBack-show{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+margin:5rem;
+border:1px solid white;
+border-radius: 3%;
+padding:1rem;
+
+}
+.FeedBack li{
+  list-style: none;
 }
