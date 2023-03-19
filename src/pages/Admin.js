@@ -18,7 +18,7 @@ const Admin = ({setAuthen}) => {
    
   }
   return (
-    <form onSubmit={(e)=>loginUser(e)} className='login-form'>
+    <form onSubmit={(e)=>loginUser(e)} className='login-form' name='login' data-netlify="true">
     <label htmlFor="username">Username</label>
     <input type="text" name="username" autoComplete='current-password' />
 

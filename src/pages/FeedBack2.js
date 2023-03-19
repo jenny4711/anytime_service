@@ -97,7 +97,7 @@ const FeedBack = ({ addFeedback, authen }) => {
 
   return (
     <div className="FeedBack">
-      <form className="Feedback-form" onSubmit={handleSubmit}>
+      <form className="Feedback-form" onSubmit={handleSubmit} data-netlify="true">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>username</Form.Label>
           <Form.Control
